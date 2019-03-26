@@ -1,78 +1,133 @@
-<!DOCTYPE HTML>
-<html lang="es">
+<!DOCTYPE html>
+<html>
 <head>
 	<meta charset="UTF-8"/>
-	<meta description="Manejo de CSS"/>
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
-	<title>ejemplo</title>
+	<meta description="Pagina Web Orientada a Seguridad Informatica"/>
+	<title> | - Seguridad Informatica - |</title>
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+
 </head>
 <body>
 	<div id="contenedor"> 
 		<header>
-			<img src="img/banner.jpg">
+			<img src="../img/banner.jpg">
 		</header>
-
-		<nav>
-			<ul>
-				<li>
-					<a href="index.html">INICIO</a>
+		<div id="cabezera">
+			<ul class="navi">
+				<li><a href="../index.html">INICIO</a></li>
+				<li><a href="Lecturas.html">LECTURAS</a>
+					<ul>
+						<li><a href="">Obj 1</a></li>
+						<li><a href="">Obj 2</a></li>
+						<li><a href="">Obj 3</a></li>
+					</ul>
 				</li>
-				<li>
-					<a href="lecturas.html">LECTURAS</a>
+				<li><a href="">MULTIMEDIA</a></li>
+				<li><a href="">ACTIVIDADES</a>
+					<ul>
+						<li><a href="">Act 1</a></li>
+						<li><a href="">Act 2</a></li>
+						<li><a href="">Act 3</a></li>
+					</ul>	
 				</li>
-				<li>
-					<a href="#">MULTIMEDIA</a>
-				</li>
-				<li>
-					<a href="#">ACTIVIDADES</a>
-				</li>
-				<li>
-					<a href="#">AUTORES</a>
-				</li>
+				<li><a href="">AUTORES</a></li>
 			</ul>
-			<!--ul>li*5>a[#]-->
-		</nav>
+		</div>
 
 		<section id="slider">
-			<img src="img/slide-1.jpg">
+			<img src="">
 		</section>
-
 		<section id="contenido">
-			 <article class="articulos ">
-			 	<h2>Lectura 1</h2>
-			 	<img src="img/dog1.jpg">
-			 	<p> ¿Qué es una Amenazas de Seguridad?
-				Estas surgen a partir de la existencia de vulnerabilidades, es decir que una amenaza sólo puede existir si existe una vulnerabilidad que pueda ser aprovechada, por cualquier ciber atacante.
-				</p>
-			 </article>
-			 <article class="articulos ">
-			 	<h2>Lectura 2</h2>
-			 	<img src="img/dog2.jpg">
-			 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			 </article>
-		</section>
 
+				<article class="articulos">
+				<div class="dividir"></div>
+				<h4>Información general del OVI</h4>
+				<div class="dividir"></div>
+				<p>Reconocer la importancia de identificar los recursos necesarios para obtener una seguridad en nuestro sistema informático, tanto en el hardware como en el Software, al tener conocimiento de la terminología utilizada, permite al estudiante conocer sobre los procedimientos para minimizar la variedad de tipos de amenaza.</p>
+				<p>Abordar los conceptos de Software malicioso y antivirus, así como su clasificación, y los protocolos generales en la seguridad de redes inalámbricas.</p>
+				<p>Proporcionar de manera superficial una descripción del concepto de criptografía</p>
+			</article>
+			<div class="dividir"></div>
+
+			<article class="articulos">
+				<h1>OBJETIVO ESPECIFICO 1</h1>
+				<div class="dividir"></div>
+				<h4>Terminología y conceptos básicos de seguridad informática</h4>
+				<img src="../img/obj1.jpg">				
+				<p>
+				Identificar y conocer la terminología utilizada en la seguridad informática, así mismo sus conceptos básicos de seguridad.
+				Se divide en dos:</p>
+				<p><b>1. Amenazas de Seguridad</i></b>
+				<p> a) Interrupción
+					b) Intercepción
+					c) Modificación
+					d) Fabricación</p>
+				<p><b> 2. Ataques Informaticos</i></b>
+				<p> a) Ataques pasivos
+					b) Ataques activos</p>
+
+				<div class="dividir"></div>
+			</article>
+
+			<article class="articulos">
+				<h1>OBJETIVO ESPECIFICO 2</h1>
+				<div class="dividir"></div>
+				<h4>Malware – Antivirus & Redes Inalambricas</h4>
+				<img src="../img/obj2.jpg">
+				<p>Los temas que se trataran en en este objetivo son:</p>
+				<p> 1) Concepto de software malicioso & Concepto de Software antivirus</p> 
+				<p> 2) Ciclo de vida de un virus  &  Clasificación de malware</p> 
+				<p> 3) Redes inalámbricas - Seguridad en redes inalámbricas - Protocolo WEP/WAP/WPA2</p>
+				<div class="dividir"></div>
+			</article>
+
+			<article class="articulos">
+				<h1>OBJETIVO ESPECIFICO 3</h1>
+				<div class="dividir"></div>
+				<h4>Criptografia</h4>
+				<img src="../img/obj3.jpg">
+				<p>Identificar los conceptos básicos de la Criptografía, como su clasificación, su terminología empleada, tipos de clave:</p>
+				<P> 1) Criptografía de clave Simétrica</P>
+				<P> 2) Criptografía de clave Pública</p>
+				<pre>
+					<!-- No borrar este espacio a no ser que anexe mas texto-->
+					<!-- No borrar este espacio a no ser que anexe mas texto-->
+				</pre>
+				<div class="dividir"></div>
+
+			</article>
+
+		</section>
 		<aside>
-			<h3>Publicidad</h3>
-			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			<h3>Objetivos del OVI</h3>
+			<p><strong>Objetivo específico 1:</strong>
+			Identificar y conocer la terminología utilizada en la seguridad informática, así mismo sus conceptos básicos de seguridad.</p>
+			<p><strong>Objetivo específico 2:</strong>
+			Analizar los conceptos de software malicioso o Malware, su clasificación, Software antivirus, el ciclo de vida, y en la parte de los protocolos generales en la seguridad de redes inalámbricas se manejan temas de Redes inalámbricas, la seguridad en las redes inalámbricas, protocoles (WEP – WPA – WPA2)</p>
+			<p><strong>Objetivo específico 3:</strong>
+			Identificar los conceptos básicos de la Criptografía, como su clasificación, su terminología empleada, tipos de clave.			
+			</p>
+			</aside>
+			<article>
+				<aside>
+			<h3>Mensaje 2</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</aside>
-
-		<footer>
-			<center><a href="https://www.cerotec.net/estadisticas-122369/josue8atorres.github.io" title="visitas de mi web"><img src="https://www.cerotec.net/contador.php?t=1&s=3&i=122369" alt="www.cerotec.net"></a> <br><a href='https://www.cerotec.net' style='font-size:12px;' >cerotec</a></center>
-			<p> Todos los derechos reservados grupo 301122_32 Diseño Web &copy; 2019</p>
-		</footer>
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.			
+			</p>
+			</aside>
+			</article>
 	</div>
 
+			<footer>
+			
+			<p> Todos los derechos reservados grupo 301122_32 Diseño Web &copy; 2019</p>
+		</footer>
+
+</div>
 </body>
 </html>
