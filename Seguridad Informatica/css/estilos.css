@@ -34,11 +34,21 @@ ul, ol{
 .navi li ul {
 	display:none;
 	position:absolute;
-	min-width: 140px;
+	width: 140px;
+
 }
 
 .navi li:hover > ul{
 	display:block;
+}
+
+.navi li ul li{
+position:relative;
+}
+
+.navi li ul li ul{
+right:-140px;
+top:0px;
 }
 
 #contenedor{
