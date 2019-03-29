@@ -152,7 +152,6 @@ font-size: 18px;
 	margin-top: 5px;
 	font-family: arial;
 	text-align: justify;
-
 }
 
 aside{
@@ -195,4 +194,8 @@ footer p{
 
 p{
 	text-align: justify;
+}
+sup{
+	color: red;
+	font-weight: bolder;
 }
