@@ -3,7 +3,7 @@
 	margin: 0px;
 }
 body{
-	background:#3D9AF5 
+	background:#63B8F1
 }
 /*  Inicio menu desplegable*/
 #cabezera{
@@ -16,8 +16,8 @@ ul, ol{
 	list-style: none;
 }
 .navi li a{
-	background-color: #283BDF;
-	color: black;
+	background-color: #d0e9fa;
+	color: black; 
 	text-decoration: none;
 	padding: 10px 5px;
 	display: block;
@@ -82,8 +82,8 @@ nav a{
 	font-family: arial;
 	text-decoration: none;
 	padding: 20px;
-
 }
+
 nav a:hover{
 	background: #CCCCCC;
 	color: #000000;
@@ -110,14 +110,9 @@ nav a:hover{
 .articulos{
 	margin: 10px;
 }
-.articulos h4{
-	text-align: center;
-	font-size: 25px;
-}
 .articulos h1{
 text-align: center;
 font-size: 20px;
-
 }
 .articulos h2 {
 	font-size: 35px;
@@ -126,6 +121,23 @@ font-size: 20px;
 	font-family: arial; 
 	text-align: center;
 }
+.articulos h4{
+	text-align: center;
+	font-size: 25px;
+}
+.articulos p{
+text-align: center;
+font-family: arial;
+font-size: 17px;
+
+
+}
+.articulos h5{
+text-align: center;
+font-size: 18px;
+
+}
+
 .dividir{
 		border-bottom: 3px solid #000000;
 }
@@ -153,8 +165,8 @@ aside{
 
 aside h3{
 	font-size: 20px;
-	color: #FFFFFF;
-	background: #000000;
+	color: black;
+	background: #7EF267;
 	border-radius: 4px;
 	text-align: center;
 	padding: 10px;
