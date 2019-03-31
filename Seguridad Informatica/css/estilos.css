@@ -139,12 +139,12 @@ font-size: 18px;
 }
 
 .dividir{
-		border-bottom: 3px solid #000000;
+border-bottom: 3px solid #000000;
 }
 
 .articulos img{
  float: left;
- margin: 10px;
+ margin: 10px; 
 }
 
 .articulos p{
