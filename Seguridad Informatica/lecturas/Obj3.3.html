@@ -55,56 +55,39 @@
 					<section id="contenido">
 
 						<article class="articulos">
-							<h4>¿Qué es una amenaza de seguridad?</h4>
-							<img src="../img/amenaza.jpg">				
+							<div class="dividir"></div>
+							<h4>Combinando Criptografía Simétrica y Asimétrica</h4>
+							<div class="dividir"></div>
+							<img src="../img/imgobj3.jpg">		
 							<p>
-								Identificar y conocer la terminología utilizada en la seguridad informática, así mismo sus Estas surgen a partir de la existencia de vulnerabilidades, es decir que una amenaza sólo puede existir si existe una vulnerabilidad que pueda ser aprovechada, por cualquier ciber atacante. Estas amenazas se clasifican en:
-
+								Como se ha mencionado anteriormente, el uso de criptografía simétrica plantea  el  problema  de  la  transferencia  de  clave.  Ambas  técnicas  se  pueden  utilizar  conjuntamente  para  proporcionar  un  mejor  método  de  cifrado. <u>De  esta  manera se puede hacer uso de las ventajas combinadas y superar las desventajas.</u>
 							</p>
-							<p><b> a) Interrupción:</i></b> Ataque contra la confidencialidad de un sistema a través del que un programa, consigue acceder a recursos para los que no tiene autorización.
-								<p><b> b) Intercepción:</i></b> Ataque contra la confidencialidad de un sistema a través del que un programa, consigue acceder a recursos para los que no tiene autorización.
-									<p><b> c) Modificación:</i></b> Estos ataques suelen ser los más dañinos, ya que puede eliminar parte de la información, dejar algunos dispositivos inutilizables, alterar los programas para que funcionen de forma distinta.
-										<p><b> d) Fabricación:</i></b> un atacante inserta objetos falsificados en el sistema. (dirección IP, dirección web, correo electrónico).
-
-
-											<div class="dividir"></div>
+							<!-- Inicio Etiqueta para simular un salto de pagina -->
+							<pre>
+							</pre>
+							<!-- Fin Etiqueta para simular un salto de pagina -->
+							<p>Específicamente,  el  sistema  híbrido  utiliza  un  algoritmo  de  clave  pública  con  el  <b>fin de compartir de forma segura la clave usada en el sistema de cifrado simétrico.</b> El   texto   en   claro   se   cifra   utilizando   una   clave   simétrica,   dando   lugar   al   criptograma.  El  emisor  envía  el  criptograma  al  receptor  junto  con  la  clave  simétrica  utilizada  cifrada  con  la  clave  pública  del  destinatario.  Dado  que  el  método  de  reparto  es  seguro,  la  clave  simétrica  se  renueva  cada  sesión,  por  eso  a veces a esta clave se denomina clave de sesión. Esto significa que si un atacante es capaz de conocer la clave de sesión, sólo sería capaz de leer el mensaje cifrado con esa clave.</p>
 										</article>
 
 										<article class="articulos">
 											<h1></h1>
 											<div class="dividir"></div>
-											<h4>¿Qué es un ataque informático?</h4>
-											<img src="../img/ataqueinformatico.jpg">
-											<p>
-												Es un método por el cual un individuo, mediante un sistema informático, intenta tomar el control, desestabilizar o dañar otro sistema informático (ordenador, red privada, etcétera).estos se dividen en dos:
+											<h4>Pasos de una transacción usando la tecnica combinada</h4>
+											<p><b>1 -</b> Se  genera  una  clave  aleatoria  y  se  cifra  el  mensaje  con  dicha  clave  utilizando criptografía simétrica, dando lugar al criptograma.</p>
+											<p><b>2 -</b> Se  cifra  esta  clave  aleatoria  mediante  criptografía  de  clave  pública  con  la  clave pública del destinatario.</p>
+											<p><b>3 -</b> Se envía el criptograma junto con la clave aleatoria cifrada tal como se ha mencionado en el apartado anterior. </p>
 
-											</p>
-											<p><b> a) Ataques pasivos:</i></b> En los ataques pasivos el atacante no altera la comunicación, sino que únicamente la escucha o monitoriza, para obtener información que está siendo transmitida.
-												<p><b> b) Ataques activos :</i></b> Estos ataques implican algún tipo de modificación del flujo de datos transmitido o la creación de un falso flujo de datos, estos se dividen en cuatro:
-													<p><b> 1) Suplantación de identidad:</i></b> El intruso se hace pasar por una entidad diferente,burlando los controles de seguridad.
-														<p><b> 2) Reactuación:</i></b> uno o varios mensajes legítimos son capturados y repetidos para producir un efecto no deseado, como por ejemplo ingresar dinero repetidas veces en una cuenta dada.
-															<p><b> 3) Modificación de mensajes:</i></b>una porción del mensaje legítimo es alterada, o los mensajes son retardados o reordenados, para producir un efecto no autorizado.
-																<p><b> 4) Degradación fraudulenta del servicio:</i></b> impide o inhibe el uso normal o la gestión de recursos informáticos y de comunicaciones. Ejemplo: interrumpir el acceso a la red de una entidad financiera inundándola con mensajes espurios, es decir falso.
 																	<div class="dividir"></div>
 																</article>
-
-																<!-- No borrar este espacio a no ser que anexe mas texto-->
-																<!-- No borrar este espacio a no ser que anexe mas texto-->
-															</pre>
 															<div class="dividir"></div>
 
 														</article>
 
 													</section>
 													<aside>
-														<h3>Objetivos del OVI</h3>
-														<p><strong>Objetivo específico 1:</strong>
-														Identificar y conocer la terminología utilizada en la seguridad informática, así mismo sus conceptos básicos de seguridad.</p>
-														<p><strong>Objetivo específico 2:</strong>
-														Analizar los conceptos de software malicioso o Malware, su clasificación, Software antivirus, el ciclo de vida, y en la parte de los protocolos generales en la seguridad de redes inalámbricas se manejan temas de Redes inalámbricas, la seguridad en las redes inalámbricas, protocoles (WEP – WPA – WPA2)</p>
-														<p><strong>Objetivo específico 3:</strong>
-															Identificar los conceptos básicos de la Criptografía, como su clasificación, su terminología empleada, tipos de clave.			
-														</p>
+														<h3>!Para tener en cuenta¡ :</h3>
+														<p>La desventaja de utilizar cifrado de clave pública es que es un proceso bastante lento,  ya  que  se  requieren  longitudes  de  clave  grandes  (1024  bits  a  4096  bits).</p>
+														<p>Cuando  se  comparan  ambos  procesos,  el  cifrado  de  clave  simétrica  es  mucho  más rápido, y emplea longitudes de clave más pequeñas (56 bits a 256 bits).</p>
 													</aside>
 													<article>
 														<aside>
