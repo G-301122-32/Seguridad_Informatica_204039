@@ -91,11 +91,6 @@ nav a:hover{
 }
 /*  Fin menu desplegable*/
 
-#slider{
-	margin: auto;
-	border: 5px solid #000000;
-	margin-top: 5px;
-}
 
 #contenido{
 	float: left;
