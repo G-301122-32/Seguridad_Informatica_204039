@@ -198,3 +198,8 @@ sup{
 	color: red;
 	font-weight: bolder;
 }
+
+span{
+text-align: center;
+background-color: yellow; 
+}
