@@ -5,6 +5,14 @@
 body{
 	background:#63B8F1
 }
+#contenedor{
+	width: 960px;
+	margin: auto;
+	margin-top: 20px; 
+	border-radius: 10px; 
+	overflow: hidden;
+	margin-bottom: 20px;
+}
 /*  Inicio menu desplegable*/
 #cabezera{
 	margin: auto;
@@ -45,20 +53,16 @@ ul, ol{
 .navi li ul li{
 position:relative;
 }
-
+.navi li ul li ul{
+right:-140px;
+top:0px;
+}
 .navi li ul li ul{
 right:-140px;
 top:0px;
 }
 
-#contenedor{
-	width: 960px;
-	margin: auto;
-	margin-top: 20px; 
-	border-radius: 10px; 
-	overflow: hidden;
-	margin-bottom: 20px;
-}
+
 header{
 	height: 100%;
 	float: left;
