@@ -1,0 +1,19 @@
+1. Nombre completo
+2. Programa que Cursa actual
+3. Ciudad
+4. ¿Que importancia tiene la seguridad informatica en su vida diaria?
+  marque de 1-5 su importancia
+5. ¿aplica usted seguridad en sus cuentas?
+ si o no
+6. ¿Utiliza claves cifradas para proteger sus datos, cual?
+
+7. ¿Tiene software antivirus instalado en tu computadora?
+si o no
+8. ¿Que es un virus?
+opcion con respuesta multiple
+9. ¿que es un malware?
+opcion con respuesta multiple
+10. ¿fue importante la informacion de este sitio web para usted?
+11. ¿Que recomendaciones haria usted al sitio web?
+12. ¿recomendaria a otras personas visitar este sitio web?
+
